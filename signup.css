@@ -1,0 +1,124 @@
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+}
+
+.w3-container {
+    color: #fff;
+    text-transform: uppercase;
+    width: auto;
+    height: 3rem;
+    /* background-color: #000;
+    border: 2px solid black;
+    opacity: 0.7; */
+    padding-top: 0.2rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav {
+    margin-top: 5vh;
+}
+
+button {
+    height: 4vw;
+    width: 40vw;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    outline: none;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 700;
+}
+
+button:active {
+    background-color: lightblue;
+    color: #fff;
+}
+
+button:focus {
+    background-color: #042A38;
+    color: #fff;
+}
+
+.stud,
+.staff {
+    display: none;
+}
+
+label {
+    float: left;
+    margin-left: 25vw;
+    font-weight: bolder;
+}
+
+input {
+    width: 30vw !important;
+    outline: none;
+    height: 3vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.selc {
+    width: 30vw !important;
+    outline: none;
+    height: 3.5vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.gen {
+    width: 2vw !important;
+}
+
+form>button {
+    width: 20vw;
+    height: 2vw;
+}
+
+a {
+    color: #042A38;
+    margin: 2vw;
+}
+
+.su {
+    width: 10vw !important;
+    background-color: #fff;
+    margin-bottom: 1vw;
+    background-color: rgb(156, 213, 233);
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.su:hover {
+    background-color: rgb(94, 185, 218);
+}
+
+.formname {
+    text-shadow: 2px 0px black;
+}
+
+@media screen and (max-width: 620px) {
+    input,
+    .selc {
+        height: 5vw !important;
+    }
+}

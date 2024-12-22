@@ -1,0 +1,272 @@
+#main {
+    min-height: 100% !important;
+}
+
+table {
+    border: 1px solid rgb(255, 254, 254);
+    width: 100% !important;
+    font-weight: bolder;
+    font-size: 2vw;
+    color: #042A38;
+}
+
+.submit_btn {
+    text-align: center;
+    height: 3vw;
+    width: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 3vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 0;
+}
+
+.submit_btn:hover {
+    background-color: rgb(99, 207, 243);
+}
+
+td {
+    border: 1px solid rgb(255, 252, 252);
+    width: 20%;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+
+/* li {
+    margin: 1.5vw;
+    font-size: 8vh !important;
+}
+
+ul {
+    list-style: none;
+    width: auto !important;
+} */
+
+
+/* .navbar {
+    background-color: #fff!important;
+    font-size: 1.5vw;
+    position: fixed;
+    cursor: default;
+    cursor: pointer;
+}
+
+.navbar>ul>li:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar>ul>li>a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold !important;
+} */
+
+.navbar {
+    background-color: white !important;
+    font-size: 1.5vw !important;
+    position: fixed;
+    /* display: grid;
+    width: 85vw;
+    height: 7vh;
+    color: #042A38;
+    position: fixed;
+    border-radius: 10rem;
+    margin-top: 4vh;
+    margin-left: 6vw; */
+}
+
+.navbar>ul>li {
+    font-size: 10vh;
+}
+
+.navbar>ul>li:hover {
+    color: #042A38;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: default;
+    cursor: pointer;
+}
+
+.navbar>ul>li>a:hover {
+    color: #042A38;
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+
+a {
+    text-decoration: none;
+    color: #042A38;
+}
+
+.prof {
+    top: 5vw;
+    position: fixed;
+    width: 35vw !important;
+    height: 15vw !important;
+    margin-left: 34vw !important;
+    margin-right: 20vw !important;
+    background-color: #fff !important;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    z-index: 1;
+    padding: 1vw;
+    padding-left: 1vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container1 {
+    color: #042A38;
+    font-size: 15px;
+    line-height: 0.3rem;
+    grid-column: 1;
+}
+
+.container2 {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 3rem;
+    margin-top: 3.5rem;
+    border: 0.1rem solid black;
+    grid-column: 2;
+}
+
+#score {
+    top: 3vw;
+    position: fixed;
+    width: 50vw !important;
+    margin-left: 25vw !important;
+    margin-right: 25vw !important;
+    background-color: #fff!important;
+    display: none !important;
+    border-radius: 10px;
+    margin-top: 2vw;
+    z-index: 1;
+    padding: 1vw;
+    padding-left: 2vw;
+    color: #042A38;
+}
+
+button {
+    height: 5vh;
+    width: 10vw;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 1vw;
+}
+
+input {
+    width: 30vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 2vw;
+    font-weight: bolder;
+    outline: none;
+}
+
+ ::placeholder {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: blueviolet !important;
+}
+
+.bg {
+    background-size: 100%;
+}
+
+table {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-content: center;
+    border: 1px solid black;
+}
+
+thead {
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+td {
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    height: 4vw;
+    font-weight: bold;
+}
+
+#tq {
+    text-decoration: underline;
+}
+
+#sc {
+    width: 100% !important;
+    margin: 0%;
+    color: #042A38;
+}
+
+#le {
+    width: 90vw;
+    margin: 0;
+    color: #fff;
+}
+
+#delq,
+#addq {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+}
+
+form {
+    display: contents;
+}
+
+
+/* @media screen and (max-width: 450px) {
+    .navbar {
+        display: initial !important;
+    }
+    .navbar>ul {
+        display: initial !important;
+        left: 25vw !important;
+        text-align: center;
+        right: 25vw !important;
+    }
+    section {
+        text-align: center;
+        margin-top: 0 !important;
+        width: 100vw;
+        margin: 0 !important;
+    }
+    p {
+        color: #042A38 !important;
+    }
+} */
