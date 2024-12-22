@@ -1,5 +1,5 @@
-# Quiz-Management-system
-quiz Management System using HTML, CSS, PHP and Mysql
+# Quiz Bee
+quiz bee using HTML, CSS, PHP and Mysql
 
 Prequisites to run the project:
 
@@ -18,9 +18,9 @@ To run this project:
 7. once done creating priviledge is done open vscode in the project directory and open "sql.php" file.
 8. edit the username and password values with the username and password values set during creating priviledge and ur all set to 
         !!! run the project !!!
-9. to run the project open any web browser of your choice and type in " localhost/Quiz-Management-system/ "
+9. to run the project open any web browser of your choice and type in " localhost/Quiz Bee/ "
 
-// remember if your extracting the zipfile under any other foldername otherthan the previous Quiz-Management-system do replace the folder name in the URL in step-9 //
+// remember if your extracting the zipfile under any other foldername otherthan the previous Quiz Bee do replace the folder name in the URL in step-9 //
 
 Enjoy the project!!
 
